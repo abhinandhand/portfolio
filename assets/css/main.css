@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: hsl(0, 0%, 0%);
+  --color-secondary: hsl(0, 0%, 50%);
+  --color-text-base: hsl(0, 0%, 100%);
+  --color-bg-primary: hsl(0, 0%, 100%);
+}
+
+.dark {
+  --color-primary: hsl(0, 0%, 0%);
+  --color-secondary: hsl(0, 0%, 50%);
+  --color-text-base: hsl(0, 0%, 100%);
+  --color-bg-primary: hsl(0, 67%, 44%);
+}
+
+
+@font-face {
+    font-family: 'FarAwayGalaxy';
+    src: url('/fonts/FarAwayGalaxy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
