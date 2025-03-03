@@ -1,5 +1,5 @@
 <template>
-  <Html class="bg-bg-primary">
+  <Html class="bg-red-100">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
@@ -17,8 +17,10 @@ useHead({
       content: 'Community page',
     },
   ],
-  script: [{
-    src: './theme-toggle.js',
-  }],
+  script: [
+    {
+      src: './theme-toggle.js',
+    },
+  ],
 });
 </script>
