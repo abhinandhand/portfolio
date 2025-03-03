@@ -1,6 +1,6 @@
-import { LitElement, css, html } from "lit";
+import { LitElement, css, html } from 'lit';
 
-export default class UiButton extends LitElement {
+export class UiButton extends LitElement {
   static override properties = {
     name: { type: String, reflect: false },
   };
@@ -13,14 +13,14 @@ export default class UiButton extends LitElement {
 
   constructor() {
     super();
-    this.name = "default";
+    this.name = 'default';
   }
 
   override render() {
     console.log(
       `NUXT-SSR-LIT: Rendering with the name (${
-        import.meta.server ? "server" : "client"
-      }): ${this.name}`
+        import.meta.server ? 'server' : 'client'
+      }): ${this.name}`,
     );
     return html`<div><h2>Hello: ${this.name}</h2></div>`;
   }

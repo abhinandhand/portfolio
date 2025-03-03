@@ -4,21 +4,27 @@
   "version": "0.0.1",
   "main": "./nuxt.config.ts",
   "scripts": {
-    "dev": "nuxi dev .playground",
-    "dev:prepare": "nuxt prepare .playground",
-    "build": "nuxt build .playground",
-    "generate": "nuxt generate .playground",
-    "preview": "nuxt preview .playground",
+    "dev": "nuxi dev",
+    "dev:prepare": "nuxt prepare",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix .",
+    "storybook": "IS_STORYBOOK=true nuxt dev --port 6006",
+    "build:storybook": "IS_STORYBOOK=true storybook build"
   },
   "dependencies": {
-    "lit": "^3.2.1"
+    "vue": "latest",
+    "lit": "^3.2.1",
+    "nuxt": "^3.15.4",
+    "tailwindcss": "^4.0.9",
+    "@tailwindcss/vite": "^4.0.9"
   },
   "devDependencies": {
     "@nuxt/eslint": "1.1.0",
+    "@nuxtjs/storybook": "^8.3.3",
     "eslint": "^9.21.0",
-    "nuxt": "^3.15.4",
     "nuxt-ssr-lit": "1.6.29",
     "typescript": "^5.8.2"
   }
