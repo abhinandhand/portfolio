@@ -20,6 +20,5 @@
       "post-applypatch": "echo \"[Husky] post-applypatch\"",
       "pre-commit": "lint-staged"
     }
-  },
-
+  }
 }
