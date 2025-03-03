@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;700&display=swap");
 @import "tailwindcss";
 
 
 :root {
-  --ff-primary: "Open Sans", sans-serif;
-  --ff-secondary: "Roboto", sans-serif;
+  --font-primary: "Open Sans", sans-serif;
+  --font-secondary: "Roboto", sans-serif;
+  font-family: var(--font-primary);
 }
 
 
@@ -73,17 +75,18 @@
   --color-primary-darker: #5c430a;
   --color-primary-dark: #806117;
   --color-primary-medium: #a87e26;
-  --color-primary-light: #d6a23e;
-  --color-primary-lighter: #f4c759;
+  --color-primary-light: #f7ca59;
+  --color-primary-lighter: #f1d48b;
   --color-primary-lightest: #fff9e0;
 
   /* Grayscale Palette */
-  --color-grey-darkest: #0c1e31;
-  --color-grey-darker: #1e2b3d;
-  --color-grey-dark: #2a3a4d;
-  --color-grey-medium: #4c6479;
-  --color-grey-light: #a6c0cf;
+  --color-grey-darkest: #4c6479;
+  --color-grey-darker: #6b7c8a;
+  --color-grey-dark: #8a9ba8;
+  --color-grey-medium: #a6c0cf;
+  --color-grey-light: #c0d4e0;
   --color-grey-lightest: #f0f7fb;
+
 
   /* Utility Colors */
   --color-overlay-dark: rgba(0, 0, 0, 0.7); 
