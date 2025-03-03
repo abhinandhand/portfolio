@@ -1,5 +1,5 @@
 <template>
-  <Html class="bg-red-100">
+  <Html class="">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
@@ -7,19 +7,19 @@
 </template>
 
 <script setup lang="ts">
-import { NuxtLayout } from '#components';
+import { NuxtLayout } from "#components";
 
 useHead({
-  title: 'Abhinandhan Frontend Developer',
+  title: "Abhinandhan Frontend Developer",
   meta: [
     {
-      name: 'description',
-      content: 'Community page',
+      name: "description",
+      content: "Community page",
     },
   ],
   script: [
     {
-      src: './theme-toggle.js',
+      src: "./theme-toggle.js",
     },
   ],
 });
