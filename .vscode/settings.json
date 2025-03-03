@@ -1,5 +1,7 @@
 {
   "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.singleQuote": true
+  },
+  "prettier.singleQuote": true
 }
