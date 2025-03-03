@@ -6,5 +6,5 @@
 </template>
 
 <script lang="ts" setup>
-console.log('Hello World')
+console.log('Hello Worldfff');
 </script>
