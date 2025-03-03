@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg stroke="black" fill="none" viewBox="0 0 84 96" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <g id="logo">
+    <g id="Group">
+      <g id="Group_2">
+        <path d="M42 3L3 25V70L42 93L81 71V26L42 3Z" id="Shape" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+        <text style="fill: rgb(51, 51, 51); font-family: Battambang; font-size: 45px; white-space: pre;" transform="matrix(0.912633, 0, 0, 1, 1.865409, -0.469075)" x="13.613" y="63.284"> D</text>
+      </g>
+    </g>
+  </g>
+  <defs>
+    <style bx:fonts="Battambang">@import url(https://fonts.googleapis.com/css2?family=Battambang%3Aital%2Cwght%400%2C100%3B0%2C300%3B0%2C400%3B0%2C700%3B0%2C900&amp;display=swap);</style>
+  </defs>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="-1.84" y="118.428"> </text>
+</svg>
