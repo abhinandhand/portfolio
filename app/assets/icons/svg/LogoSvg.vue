@@ -1,6 +1,6 @@
 <template>
   <svg
-    class="stroke-text-primary hover:stroke-primary-light w-12 h-12 cursor-pointer transition-all duration-300 ease-linear"
+    class="stroke-grey-1 hover:stroke-primary-brand w-12 h-12 cursor-pointer transition-all duration-300 ease-linear"
     fill="none"
     viewBox="0 0 84 96"
     xmlns="http://www.w3.org/2000/svg"
@@ -16,7 +16,7 @@
             stroke-width="5"
           />
           <text
-            class="fill-text-primary"
+            class="fill-grey-1"
             stroke="none"
             style="font-family: Biryani; font-size: 43px; white-space: pre"
             x="18"

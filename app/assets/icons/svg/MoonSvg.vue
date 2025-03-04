@@ -1,13 +1,17 @@
 <template>
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="28"
-    height="28"
+    width="30"
+    height="30"
     viewBox="0 0 32 32"
   >
-    <g fill="none" fill-rule="evenodd" transform="translate(-440 -200)">
+    <g
+      fill="none"
+      fill-rule="evenodd"
+      transform="translate(-440 -200)"
+    >
       <path
-        class="group-hover:fill-primary-light group-hover:stroke-primary-light"
+        class="group-hover:fill-primary-5 group-hover:stroke-primary-5"
         fill="currentColor"
         fill-rule="nonzero"
         stroke="currentColor"

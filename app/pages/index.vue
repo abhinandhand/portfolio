@@ -1,5 +1,5 @@
 <template>
-  <h2>Welcome</h2>
+  <UiProfileIntro />
 </template>
 
 <script setup lang="ts">
