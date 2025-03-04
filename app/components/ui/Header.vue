@@ -1,6 +1,6 @@
 <template>
-  <nav class="bg-bg-primary text-text-primary p-4">
-    <div class="@container/nav max-w-6xl mx-auto flex justify-between">
+  <header class="bg-primary-10 p-4">
+    <nav class="@container/nav max-w-6xl mx-auto flex justify-between">
       <div class="flex items-center">
         <NuxtLink to="/">
           <LogoSvg />
@@ -8,23 +8,22 @@
       </div>
 
       <ul class="flex gap-8 items-center">
-        <li v-for="menu in menus" :key="menu.name">
+        <li
+          v-for="menu in menus"
+          :key="menu.name"
+        >
           <NuxtLink
             :to="menu.to"
-            :class="[
-              'tracking-[.25rem] font-bold capitalize transition-all duration-300 hover:text-primary-light cursor-pointer',
-              $route.path === menu.to
-                ? 'text-primary-light'
-                : 'text-text-primary',
-            ]"
+            class="tracking-[.25rem] font-bold capitalize transition-all duration-300 hover:text-primary-brand cursor-pointer"
+            :class="{ 'text-primary-brand': $route.path === menu.to }"
           >
             {{ menu.name }}
           </NuxtLink>
         </li>
         <li><ThemeSelector /></li>
       </ul>
-    </div>
-  </nav>
+    </nav>
+  </header>
 </template>
 
 <script setup>

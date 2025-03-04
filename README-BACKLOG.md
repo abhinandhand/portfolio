@@ -1,4 +1,10 @@
-# Wishlist
+# Backlog 
+1. Mobile resposnive for header & menu bar
+2. Transiton switch for theme switch shouwl ease 
+3. Observer intersecton for projects
+4. 
+
+# Wishlist - Good to have in future
 
 1. Linkedin Activities integration
 2. Resume download
