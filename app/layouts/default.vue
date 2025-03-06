@@ -1,10 +1,10 @@
 <template>
-  <Fragment>
+  <div>
     <UiHeader />
     <main>
-      <slot />
+      <NuxtPage />
     </main>
-  </Fragment>
+  </div>
 </template>
 
 <style scoped>

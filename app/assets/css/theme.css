@@ -32,6 +32,7 @@
 
 
   --color-primary-brand: #e9b949;
+  --breakpoint-xs: 30rem;
 }
 
 
@@ -67,5 +68,5 @@
   --color-grey-10: #a1a1a1;
 
 
-  --color-primary-brand: #ffd700;
+  --color-primary-brand: #f7d06e;
 }

@@ -17,11 +17,6 @@ export class UiButton extends LitElement {
   }
 
   override render() {
-    console.log(
-      `NUXT-SSR-LIT: Rendering with the name (${
-        import.meta.server ? 'server' : 'client'
-      }): ${this.name}`,
-    );
     return html`<div><h2>Hello: ${this.name}</h2></div>`;
   }
 }
