@@ -6,11 +6,7 @@
     viewBox="0 0 32 32"
     class="cursor-pointer"
   >
-    <g
-      fill="none"
-      fill-rule="evenodd"
-      transform="translate(-442 -200)"
-    >
+    <g fill="none" fill-rule="evenodd" transform="translate(-442 -200)">
       <g
         fill="currentColor"
         class="group-hover:fill-primary-brand"
