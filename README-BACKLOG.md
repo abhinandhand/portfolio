@@ -31,4 +31,5 @@ Home page About Projects Activities
 
  # branch
 about-nd-contact-page
-footer-adjustments
+footer-section
+lets-connect

@@ -4,9 +4,12 @@
       class="max-w-6xl mx-auto grid grid-rows-2 md:grid-rows-none md:grid-cols-2 gap-x-12 gap-y-8 md:py-8"
     >
       <article
-        class="flex justify-center items-center w-full px-4 transform xs:scale-60 sm:scale-80 lg:scale-90 xl:scale-95"
+        class="relative flex justify-self-center md:before:content-[''] md:before:absolute md:before:border-4 md:before:border-primary-5 md:before:rounded-md md:before:h-full md:before:w-full md:before:right-[2rem] md:before:top-[2rem]"
       >
-        <HeroContactSvg />
+        <img
+          src="/profile-photo.jpg"
+          class="max-h-[30rem] max-w-[25rem] object-cover relative rounded-md"
+        />
       </article>
       <article class="flex flex-col justify-center w-full p-10 md:p-0">
         <h2>About</h2>
@@ -31,18 +34,12 @@
           experience, ultimately contributing to company growth.
         </p>
 
-        <UiLink
-          label="Learn More"
-          type="primary"
-          to="/contact"
-        />
+        <UiLink label="Learn More" type="primary" to="/contact" />
       </article>
     </div>
   </section>
 </template>
 
-<script setup lang="ts">
-import HeroContactSvg from '~/assets/icons/svg/HeroContactSvg.vue';
-</script>
+<script setup lang="ts"></script>
 
 <style scoped></style>
