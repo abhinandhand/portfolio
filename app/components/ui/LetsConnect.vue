@@ -12,7 +12,10 @@
       controls
       poster="/connect-fallback.jpeg"
     >
-      <source src="/connect.mp4" type="video/mp4" />
+      <source
+        src="/connect.mp4"
+        type="video/mp4"
+      />
       Sorry, your browser does not support embedded videos
     </video>
 
@@ -26,7 +29,10 @@
         hi, I’ll try my best to get back to you!
       </p>
 
-      <UiLink label="contact me" to="/contact" />
+      <UiLink
+        label="contact me"
+        to="/contact"
+      />
     </div>
     <div class=""></div>
   </section>
