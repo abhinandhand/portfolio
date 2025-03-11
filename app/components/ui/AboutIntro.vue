@@ -34,7 +34,11 @@
           experience, ultimately contributing to company growth.
         </p>
 
-        <UiLink label="Learn More" type="primary" to="/contact" />
+        <UiLink
+          label="Learn More"
+          type="primary"
+          to="/contact"
+        />
       </article>
     </div>
   </section>
