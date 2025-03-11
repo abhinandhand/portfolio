@@ -11,6 +11,7 @@
       <component
         :is="social.icon"
         class="w-6 h-6"
+        :class="isFooter ? 'text-primary-brand hover:text-white' : ''"
       />
     </NuxtLink>
   </div>
@@ -23,6 +24,13 @@ import TwitterSvg from '~/assets/icons/svg/TwitterSvg.vue';
 import GitHubSvg from '~/assets/icons/svg/GitHubSvg.vue';
 import FacebookSvg from '~/assets/icons/svg/FacebookSvg.vue';
 import InstagramSvg from '~/assets/icons/svg/InstagramSvg.vue';
+
+defineProps({
+  isFooter: {
+    type: Boolean,
+    default: false,
+  },
+});
 
 const socialLinks = computed(() => [
   {

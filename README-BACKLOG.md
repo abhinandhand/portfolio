@@ -28,3 +28,7 @@ Home page About Projects Activities
  Layered approach
  FIrst colorful paint
  Interactive painint
+
+ # branch
+about-nd-contact-page
+footer-adjustments

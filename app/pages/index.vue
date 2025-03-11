@@ -1,5 +1,6 @@
 <template>
-  <UiProfileIntro />
+  <Fragment>
+    <UiProfileIntro />
+    <UiAboutIntro />
+  </Fragment>
 </template>
-
-<script setup lang="ts"></script>

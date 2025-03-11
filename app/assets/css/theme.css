@@ -33,6 +33,7 @@
 
   --color-primary-brand: #e9b949;
   --breakpoint-xs: 30rem;
+  --color-footer: #222;
 }
 
 
@@ -48,7 +49,7 @@
 
   /* Darker shades of primary color */
   --color-primary-6: #2d477a;
-  --color-primary-7: #243a52;
+  --color-primary-7: #37506a;
   --color-primary-8: #1e2b3d;
   --color-primary-9: #243346;
   --color-primary-10: #243a52; /* Base color for the dark theme */
@@ -67,6 +68,6 @@
   --color-grey-9: #aaaaaa;
   --color-grey-10: #a1a1a1;
 
-
+  --color-footer: #222;
   --color-primary-brand: #f7d06e;
 }
