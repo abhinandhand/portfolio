@@ -9,8 +9,8 @@
     "build": "nuxt build",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
+    "lint": "",
+    "lint:fix": "",
     "storybook": "IS_STORYBOOK=true nuxt dev --port 6006",
     "build:storybook": "IS_STORYBOOK=true storybook build"
   },

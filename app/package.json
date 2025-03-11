@@ -6,11 +6,13 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "ci:generate": "pnpm install --no-frozen-lockfile && pnpm --filter ./app run generate"
+    "ci:generate": "pnpm install --no-frozen-lockfile && pnpm --filter ./app run generate",
+    "preview": "pnpm run build && wrangler dev",
+    "deploy": "pnpm run build && wrangler deploy",
+    "cf-typegen": "wrangler types"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.9",
@@ -23,6 +25,11 @@
     "@nuxt/eslint": "^1.1.0",
     "eslint": "^9.21.0",
     "typescript": "^5.8.0",
-    "nuxt-ssr-lit": "1.6.29"
+    "nuxt-ssr-lit": "1.6.29",
+    "@cloudflare/workers-types": "^4.20250311.0",
+    "h3": "^1.15.1",
+    "nitro-cloudflare-dev": "^0.2.2",
+    "nitropack": "^2.11.6",
+    "wrangler": "^3.114.1"
   }
 }
