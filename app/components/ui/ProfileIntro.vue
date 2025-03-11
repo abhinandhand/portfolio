@@ -10,7 +10,11 @@
         </h4>
 
         <div class="mt-5">
-          <UiLink label="Contact Me" type="primary" to="/contact" />
+          <UiLink
+            label="Contact Me"
+            type="primary"
+            to="/contact"
+          />
         </div>
 
         <div class="mt-10">
