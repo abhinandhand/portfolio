@@ -18,7 +18,11 @@
         NMAM Institute of Technology, Nitte.
       </p>
       <div class="mt-5">
-        <UiLink label="Resume" type="primary" to="/contact" />
+        <UiLink
+          label="Resume"
+          type="primary"
+          to="/contact"
+        />
       </div>
     </template>
   </IllustrationContentSection>

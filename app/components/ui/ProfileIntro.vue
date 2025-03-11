@@ -1,6 +1,6 @@
 <template>
   <div class="@container/profile bg-primary-10">
-    <div class="max-w-6xl mx-auto min-h-custom flex px-12 sm:px-20 pb-20">
+    <div class="max-w-6xl mx-auto min-h-custom flex px-12 sm:px-20">
       <article class="flex min-h-custom flex-col justify-center w-full">
         <UiUnderline color="bg-primary-brand" />
         <h1>I'm Abhi</h1>
