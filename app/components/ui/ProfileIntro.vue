@@ -1,11 +1,11 @@
 <template>
   <div class="@container/profile bg-primary-10">
-    <div class="max-w-6xl mx-auto min-h-custom flex px-12 sm:px-20">
+    <div class="max-w-6xl mx-auto min-h-custom flex px-8 sm:px-20">
       <article class="flex min-h-custom flex-col justify-center w-full">
         <UiUnderline color="bg-primary-brand" />
         <h1>I'm Abhi</h1>
         <h4 class="text-grey-5">
-          Frontend <span class="xs:hidden">Dev</span>
+          Software <span class="xs:hidden">Dev</span>
           <span class="hidden xs:inline-block">Developer</span> By Curiosity
         </h4>
 

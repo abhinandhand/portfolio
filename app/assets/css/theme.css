@@ -1,5 +1,6 @@
 
 @theme {
+    --color-theme: #ffffff;
   /* dark shades of primary color*/
   --color-primary-1: #513c06;
   --color-primary-2: #7a5c10;
@@ -34,10 +35,13 @@
   --color-primary-brand: #e9b949;
   --breakpoint-xs: 30rem;
   --color-footer: #222;
+  --color-gradient-1: #ef645e;
 }
 
 
 .dark {
+  --color-theme: #000000;
+
   /* Dark shades of primary color */
   --color-primary-1: #d9e3eb; /* Lightest shade for text */
   --color-primary-2: #b3c7d7;
@@ -63,11 +67,13 @@
   /* Grey used for paragraphs */
   --color-grey-5: #cecece;
   --color-grey-6: #c5c5c5;
-  --color-grey-7: #bcbcbc;
-  --color-grey-8: #b3b3b3;
-  --color-grey-9: #aaaaaa;
-  --color-grey-10: #a1a1a1;
+  --color-grey-7: #44cae9;
+  --color-grey-8: #353d4c;
+  --color-grey-9: #23272f;
+   --color-grey-10: #102a42;
+   
 
   --color-footer: #222;
-  --color-primary-brand: #f7d06e;
+  --color-primary-brand: #46b2ca;
+  --color-gradient-1: #3b4738;
 }

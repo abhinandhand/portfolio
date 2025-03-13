@@ -35,23 +35,23 @@ defineProps({
 const socialLinks = computed(() => [
   {
     name: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/your-profile',
+    url: 'https://www.linkedin.com/in/abhinandhand/',
     icon: LinkedInSvg,
   },
-  { name: 'GitHub', url: 'https://github.com/your-profile', icon: GitHubSvg },
+  { name: 'GitHub', url: 'https://github.com/abhinandhand/', icon: GitHubSvg },
   {
     name: 'Twitter',
-    url: 'https://twitter.com/your-profile',
+    url: 'https://x.com/Abhinandha40070',
     icon: TwitterSvg,
   },
   {
     name: 'Facebook',
-    url: 'https://facebook.com/your-profile',
+    url: 'https://nl-nl.facebook.com/abhinandan.d',
     icon: FacebookSvg,
   },
   {
     name: 'Instagram',
-    url: 'https://instagram.com/your-profile',
+    url: 'https://instagram.com/abhi.nandhan',
     icon: InstagramSvg,
   },
 ]);
