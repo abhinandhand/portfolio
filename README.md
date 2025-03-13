@@ -9,6 +9,7 @@ Welcome to my **Portfolio Website**! This platform is designed to showcase my fr
 
 ### ✨ Key Features
 - **Frontend Skills**: 🎨 The website demonstrates my ability to create visually appealing and responsive designs using **Vue.js** and **Tailwind CSS**.
+- **Dark Mode Support**: 🌗 The website supports both dark and light modes, providing a better user experience based on user preferences.
 - **Full-Stack Development**: 🌐 It showcases my experience in building robust full-stack applications with **Nuxt.js** for server-side rendering and **TypeScript** for type-safe code.
 - **Monorepo Setup**: 📦 The projects are organized using a **monorepo** structure with **pnpm**, ensuring efficient management and scalability.
 - **Server-Side Rendering**: 🚀 Leveraging **Nuxt.js**, the website provides enhanced performance and SEO benefits through server-side rendering.
