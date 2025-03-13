@@ -24,7 +24,7 @@
       &nbsp;
     </div>
     <div
-      class="fixed top-20 right-0 z-40 h-full w-full translate-x-full overflow-y-auto overscroll-y-none transition duration-500 peer-checked:translate-x-0"
+      class="fixed top-20 right-0 z-40 h-full w-full translate-x-full overflow-y-auto overscroll-y-none transition-all duration-500 peer-checked:translate-x-0 peer-checked:h-[100vh]"
     >
       <div
         class="float-right min-h-full w-full bg-primary-10 px-6 p-5 shadow-2xl"
@@ -61,9 +61,11 @@ const isMenuOpen = ref(false);
 const toggleBodyScroll = () => {
   if (isMenuOpen.value) {
     document.body.classList.add('overflow-hidden');
+    document.querySelector('header')?.classList.add('h-[100vh]');
   }
   else {
     document.body.classList.remove('overflow-hidden');
+    document.querySelector('header')?.classList.remove('h-[100vh]');
   }
 };
 

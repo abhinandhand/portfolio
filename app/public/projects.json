@@ -1,0 +1,69 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Amsterdam Apothecary",
+      "description": "Family owned online business designed for one of my clients to sell CBD products in the Amsterdam market. The website provides an appealing and user-friendly interface for customers who seek the benefits of CBD products.",
+      "description2": " It ensures that purchasing legalized CBD products is just a click away, catering to customers in both Japan and Amsterdam.",
+      "description3": "With a focus on aesthetics and usability, the website offers an engaging experience for users, making it easy for them to find and purchase the products they need.",
+      "description4": "Seamless PayPal integration allows customers to make secure and convenient payments.",
+      "image": "https://raw.githubusercontent.com/abhinandhand/static-data/refs/heads/main/ams-apy/Screenshot%202025-03-13%20at%2017.54.26.png",
+      "stack": [
+        "Nuxt.js",
+        "Vue.js",
+        "Bootstrap",
+        "TypeScript",
+        "Express.js",
+        "JavaScript",
+        "HTML",
+        "MongoDB"
+      ],
+      "links": {
+        "github": "https://github.com/abhinandhand/amsterdam-apothecary",
+        "liveDemo": "https://amsterdam-apothecary-preview.netlify.app/"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Digital Memory Album",
+      "description": "The Digital Memory Album is a web-based application designed to replace traditional hardcopy photo albums with a modern, interactive digital experience.",
+      "description2": "This project allows users to cherish and revisit the beautiful moments of life with just a click. Whether it's a wedding, anniversary, or any special event, couples, friends, and relatives can browse through a digital web album filled with photos and memories.",
+      "description3": "Users can easily navigate through various events and photos, making the experience engaging and user-friendly. Visitors can post heartfelt wishes to newlyweds or anniversary couples, adding a personal touch to the digital album.",
+      "image": "https://raw.githubusercontent.com/abhinandhand/static-data/refs/heads/main/web-album/Screenshot%202025-03-13%20at%2017.01.18.png",
+      "stack": [
+        "Angular 4+",
+        "TypeScript",
+        "Bootstrap",
+        "HTML",
+        "Express.js",
+        "JavaScript"
+      ],
+      "links": {
+        "github": "https://github.com/abhinandhand/web-album",
+        "liveDemo": "https://web-album.netlify.app/"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Portfolio Website",
+      "description": "A sleek, modern portfolio website designed to showcase personal projects, skills, and experience. Features include responsive design, interactive elements, and optimized performance.",
+      "description2": "Leveraging Nuxt.js, the website provides enhanced performance and SEO benefits through server-side rendering.",
+      "description3": "TThe website is deployed using Cloudflare, integrating CI/CD workflows and utilizing Cloudflare Workers to publish pages efficiently.",
+      "image": "https://raw.githubusercontent.com/abhinandhand/static-data/refs/heads/main/portfolio/portfolio-project.png",
+      "stack": [
+        "Nuxt",
+        "Vue 3",
+        "pnpm",
+        "Tailwind",
+        "SSR",
+        "Cloudfare",
+        "HTML",
+        "CSS"
+      ],
+      "links": {
+        "github": "https://github.com/abhinandhand/portfolio",
+        "liveDemo": "https://abhicodestudio.com"
+      }
+    }
+  ]
+}

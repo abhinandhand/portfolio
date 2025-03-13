@@ -6,6 +6,7 @@ import { UiLetsConnect } from '#components';
   <Fragment>
     <UiProfileIntro />
     <UiAboutIntro />
+    <UiMyProjects />
     <UiLetsConnect />
   </Fragment>
 </template>

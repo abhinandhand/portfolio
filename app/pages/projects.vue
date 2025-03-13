@@ -1,5 +1,5 @@
 <template>
-  <div />
+  <UiMyProjects />
 </template>
 
 <script setup></script>

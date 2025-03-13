@@ -25,9 +25,8 @@
         <li class="flex transform scale-110 sm:scale-100">
           <UiThemeSelector />
         </li>
-
-        <UiMobileMenu />
       </ul>
+      <UiMobileMenu />
     </nav>
   </header>
 </template>
