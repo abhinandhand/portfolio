@@ -19,6 +19,14 @@ useHead({
     {
       src: './theme-toggle.js',
     },
+
+    {
+      src: 'https://www.googletagmanager.com/gtag/js?id=G-9VLL0RVHTL',
+    },
+
+    {
+      src: './gtag.js',
+    },
   ],
 });
 </script>
