@@ -12,6 +12,7 @@ Welcome to my **Portfolio Website**! This platform is designed to showcase my fr
 ### 🛠️ Technologies Used
 - **Nuxt.js**: 🚀 Utilized for server-side rendering and building dynamic web applications.
 - **Vue.js**: 🌐 Employed for creating interactive and responsive user interfaces.
+- **Cloudflare Deployment**: ☁️ The website is deployed using **Cloudflare**, integrating CI/CD workflows and utilizing Cloudflare Workers to publish pages efficiently.
 - **TypeScript**: 🛡️ Ensured robust and maintainable code throughout the projects.
 - **Tailwind CSS**: 🎨 Used for crafting beautiful and responsive designs.
 - **pnpm**: 📦 Implemented for efficient package management in a monorepo setup.
