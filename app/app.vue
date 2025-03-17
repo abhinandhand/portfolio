@@ -12,7 +12,17 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'Community page',
+      content:
+        'Welcome to Abhinandhan\'s portfolio. Explore my projects, skills, and experience in software development',
+    },
+    {
+      name: 'keywords',
+      content:
+        'Abhinandhan, frontend developer, portfolio, web development, projects, skills, experience',
+    },
+    {
+      name: 'author',
+      content: 'Abhinandhan',
     },
   ],
   script: [
