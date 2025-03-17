@@ -21,7 +21,7 @@
         <UiLink
           label="Resume"
           type="primary"
-          to="https://raw.githubusercontent.com/abhinandhand/static-data/d91ce2b1023a743671892799f43b574872571530/Abhinandhan.pdf"
+          to="https://raw.githubusercontent.com/abhinandhand/static-data/0abedd6e52aefe204eecb37f21da955fbbae4c55/Abhinandhan.pdf"
         />
       </div>
     </template>
